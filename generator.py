@@ -1,5 +1,5 @@
-# First goal: Make a generator of 8 characters that has a combination of uppercase, numbers, and special characters.
-# Second goal:
+#TODO: Create more user agency.
+#TODO: Asks user for length of password, ask user how many specials and numbers, ask user what of the 4 features they want.
 import random
 import string
 
@@ -59,11 +59,5 @@ def passwordify(word):
     return "".join(word)
 
 
-# password = (get_upper(2)).join(get_lower(2)).join(get_special(2)).join(get_num(2))
-# print("Original password: " + password)
-# password = shuffle_word(password)
-# print("Shuffled password: " + password)
-# password = (passwordify(password))
-# print("Valid password: " + password)
-
-print(passwordify("!3^cjKCi"))
+password = (get_upper(2)).join(get_lower(2)).join(get_special(2)).join(get_num(2))
+print("Valid password: " + password)
